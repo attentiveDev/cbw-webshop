@@ -1,0 +1,7 @@
+# Browser-Zugriff komplett verbieten
+Order Allow,Deny
+
+# Browser-Zugriff selektiv erlauben
+<FilesMatch "^(index\.php|.*\.(css|js|gif|jpe?g|png|php|woff2|svg|zip))?$">
+  Allow from all
+</FilesMatch>

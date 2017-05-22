@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Webshop derRADLER</title>
+        <meta name="description" content="">
+        <meta name="author" content="Sven Sonntag">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+    <body style="background-color: #fff;">
+        <div class="container">
+            <div class="row" style="margin-top: 16px;">
+                <div class="four columns">
+                    <h4>Dokumentation</h4>
+                    <p>
+                        Author: Sven Sonntag<br>
+                        Stand: 13.12.2016<br>
+                        Kontakt: <br><a href="mailto:sven.sonntag@solution-developer.de">sven.sonntag@solution-developer.de</a>
+                    </p>
+                </div>
+                <div class="eight columns">
+                    <h4>&nbsp;</h4>
+                    <p>
+                        Die Dokumentation des <a href="index.php">OOP-PHP Projektes</a> gliedert sich in folgende Teile:
+                    </p>
+                    <ul>
+                        <li>Installation</li>
+                        <li>Aufbau</li>
+                        <li>Bedienung</li>
+                        <li>Datenmodel</li>
+                        <li>Offene Punkte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <h4>Installation</h4>
+                <p>
+                    Erstellen Sie zuerst eine Datenbank mit dem Namen "webshop" mit der Kodierung utf-8. 
+                    Der Datenbankname und auch die Zugangsdaten zum SQL-Server lässt sich ggf. 
+                    in der Datei inc/config.php ändern.<br><br>
+                    Nun importieren Sie bitte die Datei setup/01_setup_database.sql via phpmyadmin in die erstellte Datenbank. 
+                    Dies erstellt die Datenbankstruktur.<br><br>
+                    Abschließend importieren Sie die Datei setup/02_insert_demodata.sql in die selbe Datenbank um Musterdaten zu 
+                    erstellen.<br><br>
+                    Nun lässt sich der Shop benutzen und auch das Backend im Unterverzeichnis "admin" aufrufen.
+                </p>
+                <h4>Aufbau</h4>
+                <p>
+                    Die index.php Datei des Front- und des Backends stellt den Haupt-Controller. 
+                    Es wird im Abhängigkeit der Parameter module und action der jeweilige Programcode ausgeführt. 
+                    Wird der Bereich des Moduls bzw. der Aktion im Modul nicht gefunden wird das jeweilige Skript mit einer 
+                    Fehlermeldung abgebrochen.
+                </p>
+                <h4>Bedienung</h4>
+                <p></p>
+                <h4>Datenmodel</h4>
+                <p></p>
+                <h4>Offene Punkte</h4>
+                <ul>
+                    <li>
+                        Bei der Abmeldung wird die komplette Session gelöscht. 
+                        Es sollte nur die Backend- oder Frontendsession gelöscht werden
+                    </li>
+                    <li>Registrierungsformular</li>
+                    <li>Controller im Front- und Backendbereich in einzelne Dateien aufteilern</li>
+                    <li>Meine Bestellungen anzeigen</li>
+                    <li>Warenkorb aus localStorage zurücklesen falls Session leer</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
