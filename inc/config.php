@@ -6,7 +6,7 @@
 
 $config = array(
     // Configuration for mysql database server
-    'pdo_dsn' => 'mysql:host=localhost;dbname=webshop',
+    'pdo_dsn' => 'mysql:host=localhost;dbname=cbw-webshop',
     'pdo_user' => 'root',
     'pdo_password' => '',
     'pdo_config' => array(

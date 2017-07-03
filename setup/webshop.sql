@@ -1,5 +1,3 @@
-USE webshop;
-
 -- phpMyAdmin SQL Dump
 -- version 4.2.12
 -- http://www.phpmyadmin.net
