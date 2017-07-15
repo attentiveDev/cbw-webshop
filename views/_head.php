@@ -32,3 +32,6 @@
                     </ul>
                 </nav>
             </div>
+            <div class="row">
+                <h6 style="text-align: center; color: red;"><strong>Achtung: Es handelt sich hier um eine Demonstration eines Webshops. Es sind keine Käufe möglich!</strong></h4>
+            </div>
