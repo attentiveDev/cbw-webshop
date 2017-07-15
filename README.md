@@ -1,6 +1,6 @@
 # README #
 
-Der Webshop entstand als Projektarbeit innerhalb meiner Weiterbildung zum Web-Developer 2016 innerhalb des Kurses zum Thema Objektorientierte Programmierung & PHP.
+Der Webshop entstand als Projektarbeit im Rahmen meiner Weiterbildung zum Web-Developer innerhalb des Kurses zum Thema Objektorientierter Programmierung & PHP. Für die Realisierung war eine Zeit von 2 Tagen vorgesehen.
 
 ### Online Demo ###
 
